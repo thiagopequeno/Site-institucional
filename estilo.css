@@ -1,32 +1,80 @@
-*{
+* {
     padding: 0;
-    margin:  0;
-    background-color: black;
+    margin: 0;
     color: white
 }
 
-.header{
- padding: 15px;
-
-border-bottom: 3px solid blue;
+.header {
+    padding: 15px;
+    background-color: black;
+    border-bottom: 3px solid blue;
 
 }
-h1{color:blue;}
- 
-.container{
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: blue;
+}
+
+.container {
     margin: 0 auto;
     width: 80%;
-    
-    display:flex;
-   
-    align-items:center;
+
+    display: flex;
+
+    align-items: center;
     justify-content: space-between;
 }
-ul{
+
+ul {
     display: flex;
     width: 350px;
     justify-content: space-between;
     list-style: none;
 }
-li{color: #e3b062;
+
+li {
+    color: #e3b062;
+}
+
+.banner {
+    background-image: url("./assets/img/bg-jelly-fish-para_outras_pags.png");
+    padding: 100px 0;
+}
+
+.banner .container {
+    justify-content: center;
+    height: 64vh;
+
+    align-items: center;
+}
+.banner p{
+    width: 280px;
+    color:white;
+    font-size:25px
+}
+.social{
+    margin: 50px 0;
+}
+.social .caixas,.caixa{
+    display: flex;
+}
+.caixa {
+    flex-direction: column;
+    align-items:  center;
+    margin: 0 15px;
+}
+.caixa h4{
+    margin: 15px 0;
+    color: red;
+}
+.caixa p{
+    text-align: center;
+    color: black;
+}
+.caixa img{
+    width: 170px;
 }
