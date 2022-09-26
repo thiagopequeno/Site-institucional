@@ -9,7 +9,11 @@
     padding: 15px;
     background-color: black;
     border-bottom: 3px solid blue;
-
+   
+}
+.header h1 a{
+    text-decoration: none;
+    color: blue;
 }
 
 body{
@@ -82,7 +86,7 @@ li {
 
 .footer{
     padding:  45px 0;
-    background-color: aqua;
+    background-color: rgb(51, 0, 255);
 }
 .footer .container{
     justify-content: center;
